@@ -1,0 +1,11 @@
+let a;
+
+a -> 5;
+func scope() {
+  let a;
+  a -> 1;
+  print a;
+}
+
+scrope();
+print a;
