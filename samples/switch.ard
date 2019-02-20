@@ -1,0 +1,7 @@
+switch(v)
+  BEGIN
+    case a {code placeholder} (implicit break) 
+    case b {code placeholder} (implicit break)  
+   
+    default {code placeholder} (implicit break) 
+  END
