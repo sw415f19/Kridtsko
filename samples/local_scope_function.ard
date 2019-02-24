@@ -1,7 +1,7 @@
 int a
 
 a := 5
-func scope() {
+def scope() {
 BEGIN
   int a
   a := 1

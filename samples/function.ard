@@ -1,4 +1,4 @@
-func testfunc() 
+def testfunc() 
 BEGIN
   print "A"
 END
