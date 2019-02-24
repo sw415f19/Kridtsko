@@ -1,5 +1,6 @@
-func testfunc() {
-  print "A";
-}
+func testfunc() 
+BEGIN
+  print "A"
+END
 
-testfunc();
+testfunc()

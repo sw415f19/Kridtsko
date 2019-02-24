@@ -1,5 +1,5 @@
-let a;
+string a
 
 
-a -> "hello " + "world";
-print a;
+a := "hello " + "world"
+print a

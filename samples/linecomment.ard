@@ -1,5 +1,5 @@
 
-let a;
-//Comment
-a -> 5 + 9;
-print a;
+int a
+#Comment
+a := 5 + 9
+print a

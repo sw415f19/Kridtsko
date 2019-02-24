@@ -1,7 +1,8 @@
-let a;
+int a;
 
-a -> 5;
-if (a > 4){
-  print a;
-}
-print "no";
+a := 5;
+if (a > 4)
+BEGIN
+  print a
+END
+print "End"

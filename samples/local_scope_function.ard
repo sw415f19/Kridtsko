@@ -1,11 +1,12 @@
-let a;
+int a
 
-a -> 5;
+a := 5
 func scope() {
-  let a;
-  a -> 1;
-  print a;
-}
+BEGIN
+  int a
+  a := 1
+  print a
+END
 
-scrope();
-print a;
+scrope()
+print a

@@ -1,6 +1,6 @@
-let a, let b;
+int a, int b
 
-a -> 5;
-b -> 6;
-print a;
-print b;
+a := 5
+b := 6
+print a
+print b

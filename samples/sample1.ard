@@ -1,4 +1,4 @@
 
-let a;
-a -> 5 + 9;
-print a;
+int a
+a := 5 + 9
+print a
