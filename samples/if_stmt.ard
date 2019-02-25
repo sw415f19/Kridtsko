@@ -1,6 +1,6 @@
-int a;
+int a
 
-a := 5;
+a := 5
 if (a > 4)
 BEGIN
   print a
