@@ -2,7 +2,8 @@ int a
 
 a := 5
 if (a > 4)
-BEGIN
+{
   print a
-END
+}
+
 print "End"

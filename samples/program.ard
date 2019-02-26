@@ -1,13 +1,14 @@
-SETUP BEGIN
+SETUP {
     int b := 10
-END
+}
 
-LOOP BEGIN
+LOOP {
     int a := 5
     print(foo(a) + b + "\n")
-END
+}
 
 def int foo(int A)
-BEGIN
+{
   return A * 2
-END
+}
+
