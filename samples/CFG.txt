@@ -1,0 +1,6 @@
+program -> variables functions
+variables -> var variables
+           | λ
+var -> typeDec id value
+typeDec -> int | bool | double | string
+id -> /regex udtryk her/
