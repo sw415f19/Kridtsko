@@ -1,3 +1,20 @@
+
+intliteral ::= [0-9]+
+doubleliteral ::= 'TODO'
+booleanliteral ::= 'true' | 'false'
+stringliteral ::= 'TODO'
+commentliteral ::= '#' [^\n]
+compareoperator ::= '<' | '=' | '>' | '<=' | '>='
+identifier ::= 'TODO'
+assignliteral ::= ':='
+notliteral ::= '!'
+program ::= variables functions
+variables ::= var variables
+           | λ
+var ::= typeDec id value
+typeDec ::= int | bool | double | string
+id ::= /regex udtryk her/
+
 program -> variables functions
 variables -> var variables
            | λ
